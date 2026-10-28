@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import Doctor from "@/components/Doctor";
 import Booking from "@/components/Booking";
 import Footer from "@/components/Footer";
+import MapSection from "@/components/MapSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Services />
         <Doctor />
+        <MapSection />
         <Booking />
       </main>
       <Footer />
